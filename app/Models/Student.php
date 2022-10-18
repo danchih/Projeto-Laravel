@@ -10,11 +10,11 @@ class Student extends Model
     use HasFactory;
 
     public function subject() {
-        return $this->belongsTo('App\Models\Subject');
+        return $this->belongsTo('App\Models\Subject', 'subject_id', 'id');
     }
 
     public function movies() {
-        return $this->belongsToMany('App\Models\Movie', 'movie_student', 'movie_id', 'student_id');
+        return $this->belongsToMany('App\Models\Movie', 'movie_student', 'student_id', 'movie_id');
     }
 
 }

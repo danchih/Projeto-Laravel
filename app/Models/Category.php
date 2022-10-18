@@ -10,7 +10,7 @@ class Category extends Model
     use HasFactory;
 
     public function movies() {
-        return $this->hasMany('App\Models\Movies');
+        return $this->hasMany('App\Models\Movies', 'category_id', 'id');
     }
 
 }

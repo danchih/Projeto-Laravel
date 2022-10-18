@@ -17,7 +17,7 @@
 
 <h5>Alunos Matriculados: </h5>
 
-@foreach($students as $student)
+@foreach($subject->students as $student)
     <p> -> {{ $student->name }} </p>
 @endforeach
 
