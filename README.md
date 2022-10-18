@@ -43,6 +43,12 @@ php artisan key:generate
 ```
 
 
+Realizar as migrations do projeto Laravel
+```sh
+php artisan migrate
+```
+
+
 Acesse o projeto
 [http://localhost:8080](http://localhost:8080)
 
