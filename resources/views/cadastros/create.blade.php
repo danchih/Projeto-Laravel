@@ -1,20 +1,8 @@
 @extends('layouts.main')
 
-@section('title', 'Novo')
+@section('title', 'NovoProfessor')
 
 @section('content')
-
-
-<div class="card">
-  <div class="card-header">
-    Cadastro
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Cadastrar Novo Professor</h5>
-    <p class="card-text">Click no botão abaixo para cadastrar um novo aluno na lista de alunos</p>
-    <a href="/professors/create" class="btn btn-dark">Cadastrar</a>
-  </div>
-</div>
 
 <h2>Cadastrar Professor</h2>
 

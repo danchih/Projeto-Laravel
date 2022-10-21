@@ -9,6 +9,8 @@ class Professor extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name', 'email'];
+
     public function subject() {
         return $this->hasOne('App\Models\Subject','professor_id','id');
     }

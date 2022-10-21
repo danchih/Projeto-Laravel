@@ -31,4 +31,6 @@ Route::get('/subjects', [SubjectController::class, 'index']);
 Route::get('/subjects/{id}', [SubjectController::class, 'allstudents']);
 
 Route::get('/professors', [ProfessorController::class, 'index']);
+Route::get('/professors/create', [ProfessorController::class, 'create']);
+Route::post('/professors/create', [ProfessorController::class, 'store']);
 
