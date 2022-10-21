@@ -49,6 +49,12 @@ php artisan migrate
 ```
 
 
+Conectar o projeto Laravel ao servidor php
+```sh
+php artisan serve
+```
+
+
 Acesse o projeto
 [http://localhost:8080](http://localhost:8080)
 
