@@ -64,6 +64,12 @@ Acesse o phpmyadmin
 API de categorias e filmes:
 https://www.learn-laravel.cf/
 
+Rotas:
+- (get) /categories
+- (get) /category/{id}
+- (get) /movies
+- (get) /movie/{id}
+
 
 ### Como realizar requisições HTTP get:
 Adicionar no arquivo web.php e acesse a rota [http://localhost:8080/requisicao](http://localhost:8080/requisicao)
@@ -82,9 +88,3 @@ Em caso de sucesso irá aparecer a mensagem (em linha única sem formatação):
 }
 ```
 
-
-Rotas:
-- (get) /categories
-- (get) /category/{id}
-- (get) /movies
-- (get) /movie/{id}
